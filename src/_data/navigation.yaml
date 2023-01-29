@@ -1,7 +1,7 @@
 ---
 items:
   - text: About
-    url: "/about.html"
+    url: "pages/about.html"
   - text: Reports
     url: "/reports"
   - text: Menu Three
