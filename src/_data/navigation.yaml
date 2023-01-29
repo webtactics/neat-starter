@@ -2,8 +2,8 @@
 items:
   - text: About
     url: "/about.html"
-  - text: Menu Two
-    url: "#"
+  - text: Reports
+    url: "/reports"
   - text: Menu Three
     url: "#"
   - text: Blog
