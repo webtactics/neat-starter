@@ -1,6 +1,6 @@
 items:
   - text: About
-    url: /pages/about.html
+    url: /about
   - text: Reports
     url: /reports
   - text: Why us
