@@ -3,6 +3,12 @@
 @tailwind utilities;
 
 /*Your Custom CSS Goes here*/
+[class*="grid-"] {display: grid;gap: 1rem;}
+@media (min-width: 48em) {
+  .grid-3-columns {grid-template-columns: repeat(2, 1fr);display: grid;gap: 1rem;}}
+
+@media (min-width: 64em) {
+  .grid-3-columns {grid-template-columns: repeat(3, 1fr);display: grid;gap: 1rem;}}
 
 h1 {
   @apply text-4xl tracking-tighter mb-3 text-center lg:text-7xl;
